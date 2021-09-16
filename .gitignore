@@ -2,8 +2,13 @@
 
 # dependencies
 /node_modules
-/.pnp
-.pnp.js
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
 
 # testing
 /coverage
@@ -17,10 +22,6 @@
 
 # misc
 .DS_Store
-<<<<<<< HEAD
-=======
-*.pem
->>>>>>> ca848b616c45da400c8c5130d289695d1a31e315
 
 # debug
 npm-debug.log*
