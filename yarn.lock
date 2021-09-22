@@ -304,6 +304,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/tailwindcss@npm:^2.2.1":
+  version: 2.2.1
+  resolution: "@types/tailwindcss@npm:2.2.1"
+  checksum: 4e3a625707caf345786825f8b4eba47cc5a6fc8f5417a8dc0b7776de4ef499b2ea08f5d2c05fbaf793c236b14765ab06b02737c432da1801279fe33bddf82624
+  languageName: node
+  linkType: hard
+
 "abbrev@npm:1":
   version: 1.1.1
   resolution: "abbrev@npm:1.1.1"
@@ -3241,6 +3248,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-multi-carousel@npm:^2.6.5":
+  version: 2.6.5
+  resolution: "react-multi-carousel@npm:2.6.5"
+  checksum: 2ba44029a8c197320e5e536ee341a5bff492761de6a82e7335a719a11bc56b1d8fee2aa0854de2bcad67e819a2cbd7bb15ebf6ae1db9caf5d056b3f04e917806
+  languageName: node
+  linkType: hard
+
 "react-refresh@npm:0.8.3":
   version: 0.8.3
   resolution: "react-refresh@npm:0.8.3"
@@ -4125,11 +4139,13 @@ typescript@^4.4.2:
   dependencies:
     "@types/node": ^8.10.66
     "@types/react": ^17.0.20
+    "@types/tailwindcss": ^2.2.1
     autoprefixer: ^10.3.4
     next: ^11.0.0
     postcss: ^8.3.6
     react: 17.0.2
     react-dom: 17.0.2
+    react-multi-carousel: ^2.6.5
     tailwindcss: ^2.2.15
     typescript: ^4.4.2
   languageName: unknown
