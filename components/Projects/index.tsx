@@ -20,14 +20,15 @@ const Projects = () => {
 	
 	useEffect(() => {
 		resetTimeout();
-		timeoutRef.current = setTimeout(() => nextSlide(), 5 * 1000);
+		timeoutRef.current = setTimeout(() => nextSlide(), 10 * 1000);
 	
 		return () => {
 			resetTimeout();
 		};
 	}, [current, nextSlide]);
 	return (
-		<section id="projects" className="flex h-72 w-full backdrop-blur-3xl py-4 px-2 mt-6 outline-white justify-center items-center relative overflow-hidden">
+		<section id="projects" className="flex h-96 w-full backdrop-blur-3xl py-4 px-2 mt-6 outline-white justify-center items-center relative overflow-hidden">
+			<h1 className="flex-none text-4xl mb-20 w-auto text-center">Projects</h1>
 			<div className="absolute h-5 w-2 left-0 ml-4 z-10 text-5xl cursor-pointer select-none text-white">
 				<svg
 					onClick={prevSlide}
